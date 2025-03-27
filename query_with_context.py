@@ -60,7 +60,7 @@ def generate_kql(nl_query: str):
     ])
 
     prompt = f"""
-You are a Microsoft Defender expert writing Kusto Query Language (KQL).
+You are a Microsoft Defender for Endpoint expert writing Kusto Query Language (KQL).
 
 Use the following table schema and the retrieved context to help answer the user question.
 
