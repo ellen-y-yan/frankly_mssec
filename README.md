@@ -6,17 +6,17 @@ This project builds a Retrieval-Augmented Generation (RAG) system that translate
 Powered by Azure OpenAI and LlamaIndex, it allows IT admin and security engineer personas to query Defender insights using plain English.
 
 ---
-
-**👤 Target Persona:
+## 📖 Story
+###👤 Target Persona:
 Frank, a security engineer or IT admin responsible for monitoring and managing Defender for Endpoint deployments, configurations and updates across an enterprise. Frank needs fast, reliable insights and a way to stay ahead of issues — without digging through dashboards all day.
 
-🌐 Context:
+### 🌐 Context:
 Frankly lives inside Project Franktown, the unified operations center for Defender for Endpoint. It’s part of the broader vision to simplify and centralize operational workflows for Defender for Endpoint.
 
-🎯 Problem Statement:
+### 🎯 Problem Statement:
 Security engineers spend too much time clicking through tabs, chasing down documentation, switching contexts, and piecing together data just to perform routine checks on Defender agents. This friction makes it difficult to get a clear view of the environment, maintain a healthy device fleet, and scale operational excellence effectively. 
 
-💡 Solution:
+### 💡 Solution:
 Frankly is an AI-powered assistant that turns natural language into operational insight. Built with RAG, LlamaIndex, and Defender business context, Frankly enables users to:
 
  - Query Defender operational health using everyday language
@@ -25,7 +25,7 @@ Frankly is an AI-powered assistant that turns natural language into operational 
 
  - Automate routine documentation updates
 
-⚙️ Technologies Used:
+### ⚙️ Technologies Used:
 
 - Retrieval-Augmented Generation (RAG) for grounding answers
 
@@ -33,7 +33,7 @@ Frankly is an AI-powered assistant that turns natural language into operational 
 
  - BIRD Framework for evaluation of query qualities 
 
-📌 Outcomes:
+### 📌 Outcomes:
 
  - Reduce time-to-insight and manual investigation
 
@@ -42,6 +42,8 @@ Frankly is an AI-powered assistant that turns natural language into operational 
 - Help teams scale operations without scaling headcount
 
 Frankly makes Defender operations feel intuitive, conversational, and efficient — turning one security engineer into ten. 🚀**
+
+---
 
 ## 🚀 Features
 
