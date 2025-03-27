@@ -106,6 +106,6 @@ python vector.py
 
 - Integration with live Defender API
 - Feedback loop for model correction
-- 
+- Apply evaluation framework using BIRD
 
 

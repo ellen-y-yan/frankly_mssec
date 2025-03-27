@@ -13,6 +13,8 @@ Thumbs.db
 
 # Vector store persistence
 indexes/
+data/deviceTvmInfoGathering.md
+prep/
 
 # Temporary scripts
 chunk_preview.py
