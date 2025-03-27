@@ -13,7 +13,7 @@ Thumbs.db
 
 # Vector store persistence
 indexes/
-data/deviceTvmInfoGathering.md
+data/deviceTvmInfoGathering_Schema.md
 prep/
 
 # Temporary scripts
