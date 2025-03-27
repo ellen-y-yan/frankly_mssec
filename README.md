@@ -6,7 +6,6 @@ This project builds a Retrieval-Augmented Generation (RAG) system that translate
 Powered by Azure OpenAI and LlamaIndex, it allows IT admin and security engineer personas to query Defender insights using plain English.
 
 
----
 
 ## 🚀 Features
 
@@ -19,7 +18,7 @@ Powered by Azure OpenAI and LlamaIndex, it allows IT admin and security engineer
 - 🧼 Intelligent field mapping
 - ❌ Fallback protection when the query is not supported by schema
 
----
+
 
 ## 📁 Project Structure
 
@@ -39,7 +38,7 @@ frankly_mssec/
 └── requirements.txt                            # Dependencies
 ```
 
----
+
 
 ## 🛠 Setup
 
@@ -60,7 +59,8 @@ python generate_index.py
 ```
 This indexes `business_context`, `update_logs`, and `data` using `text-embedding-3-large`.
 
----
+
+
 
 ## 💬 Run Query CLI
 ```bash
@@ -76,7 +76,7 @@ If the query references unsupported fields or only exists in business context, y
 -- ❌ This request references unsupported fields or concepts not found in the schema.
 ```
 
----
+
 
 ## 🧠 How It Works
 
@@ -85,7 +85,7 @@ If the query references unsupported fields or only exists in business context, y
 - 🗣️ **LLM synthesis**: LLM generates clean, safe KQL code
 - 🧱 **Guardrails**: block invalid fields or hallucinated logic
 
----
+
 
 ## 🧪 Evaluate Context Index
 
@@ -102,7 +102,6 @@ python vector.py
 - Uses `gpt-4o` for synthesis and `text-embedding-3-large` for search
 - Auth via Azure AD (`DefaultAzureCredential`)
 
----
 
 ## 📬 Future Ideas
 
@@ -110,7 +109,7 @@ python vector.py
 - Feedback loop for model correction
 - Apply evaluation framework using BIRD
 
----
+
 ## Story
 
 ### 👤 Target Persona:
