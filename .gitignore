@@ -13,11 +13,9 @@ Thumbs.db
 
 # Vector store persistence
 indexes/
-data/deviceTvmInfoGathering_Schema.md
+data/
 prep/
 
 # Temporary scripts
-chunk_preview.py
 aoai_test.py
-query_kql.py
 
