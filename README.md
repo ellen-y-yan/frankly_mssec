@@ -94,7 +94,7 @@ You can explore index answers using:
 python vector.py
 ```
 
----
+
 
 ## 📌 Notes
 
