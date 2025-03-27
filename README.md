@@ -32,7 +32,7 @@ frankly_mssec/
 │   ├── data/
 │   └── update_logs/
 ├── generate_index.py                           # Builds vector stores
-├── query_kql.py                                # Main CLI for text-to-KQL
+├── query_with_context.py                                # Main CLI for text-to-KQL
 ├── vector.py                                   # CLI for exploring context indexes
 └── requirements.txt                            # Dependencies
 ```

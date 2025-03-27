@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+# Mac OS / Windows system files
+.DS_Store
+Thumbs.db
+
+
+# Vector store persistence
+indexes/
+
+# Temporary scripts
+chunk_preview.py
+aoai_test.py
+query_kql.py
+
