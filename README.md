@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💼 Frankly: Microsoft Defender Text-to-KQL with RAG
 
 This project builds a Retrieval-Augmented Generation (RAG) system that translates natural language questions into Kusto Query Language (KQL) for the `DeviceTvmInfoGathering` table in Microsoft Defender.
@@ -109,3 +110,6 @@ python vector.py
 - Apply evaluation framework using BIRD
 
 
+=======
+# device_control_agent
+>>>>>>> 050c61a2cc42875e80f96c5a71bfaef5f79a9ec2
