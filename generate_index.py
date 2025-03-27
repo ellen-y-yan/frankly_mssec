@@ -63,4 +63,4 @@ def index_and_save(folder_name: str, persist_subdir: str):
 
 # ---- Index both folders ----
 index_and_save("data", "data")
-index_and_save("update_logs", "update_logs")
+index_and_save("business_context", "business_context")
