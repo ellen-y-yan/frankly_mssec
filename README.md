@@ -105,14 +105,16 @@ python vector.py
 - Auth via Azure AD (`DefaultAzureCredential`)
 
 
-## 📬 Future Ideas
+## 📬 Optimization and Feature Ideas
 
+- Use reranker to improve output accuracy
+- Extension to agentic AI framework such as Semantic Kernel
 - Integration with live Defender Advanced hunting/ IT operations API
-- Feedback loop for model correction
-- Apply evaluation framework using BIRD
+- Human/User in the loop for model evaluation
+- Better curated sample query response set
 
 
-## Story
+## Product Story
 
 ### 👤 Target Persona:
 Frank, a security engineer or IT admin responsible for monitoring and managing Defender for Endpoint deployments, configurations and updates across an enterprise. Frank needs fast, reliable insights and a way to stay ahead of issues — without digging through dashboards all day.
