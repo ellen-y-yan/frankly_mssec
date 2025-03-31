@@ -97,7 +97,6 @@ python vector.py
 ```
 
 
-
 ## 📌 Notes
 
 - Built with LlamaIndex >= 0.10
@@ -105,13 +104,18 @@ python vector.py
 - Auth via Azure AD (`DefaultAzureCredential`)
 
 
-## 📬 Optimization and Feature Ideas
+## 📬 Optimization Directions
 
 - Use reranker to improve output accuracy
-- Extension to agentic AI framework such as Semantic Kernel
-- Integration with live Defender Advanced hunting/ IT operations API
 - Human/User in the loop for model evaluation
 - Better curated sample query response set
+
+## 🔹Feature Ideas
+
+- Integration with live Defender Advanced hunting/ IT operations API
+- Automation with email inquiries for MDE PG productivity
+- Extension to agentic AI framework such as Semantic Kernel for tool calling, such as internal APIs for auto-remediation
+  
 
 
 ## Product Story
