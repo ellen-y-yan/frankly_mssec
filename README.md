@@ -104,11 +104,13 @@ python vector.py
 - Auth via Azure AD (`DefaultAzureCredential`)
 
 
-## 📬 Optimization Directions
+## 📬 Technical Optimization Directions
 
 - Use reranker to improve output accuracy
 - Human/User in the loop for model evaluation
 - Better curated sample query response set
+- Configure output format using openai feature called structured output
+- Include error handling mechanism, which checks query results, if no entries or error, run the business context retrieval and query generation again
 
 ## 🔹Feature Ideas
 
